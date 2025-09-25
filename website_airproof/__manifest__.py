@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+{
+    "name": "website Airproof",
+    "version": "18.0.1.0.0",
+    "description": "Theme Airproof",
+    "license" : "OEEL-1",
+    "category": "Website/Theme",
+    "author": "Web Design Odoo",
+    "depends": ["website"],
+    "data": [
+        # Options
+        "data/presets.xml",
+        "data/website.xml",
+        "data/images.xml",
+        # Pages
+        "data/pages/home.xml",
+    ],
+    "assets": {
+        "web._assets_primary_variables": [
+        "website_airproof/static/src/scss/primary_variables.scss",
+        ],
+         "web._assets_frontend_helpers": [
+            ("prepend", "website_airproof/static/src/scss/bootstrap_overridden.scss"),
+        ],
+
+         "web.assets_frontend": [
+            "website_airproof/static/src/scss/base/fonts.scss",
+        ],
+
+    },
+
+
+}

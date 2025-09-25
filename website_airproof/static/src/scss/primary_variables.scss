@@ -1,0 +1,80 @@
+// Primary Variables for website_airproof
+// This file must only contain definitions and overrides of SCSS variables and mixins.
+
+// Font configurations - Define custom fonts here
+// The Website Builder automatically makes them available in the font selector
+$o-theme-font-configs: (
+    // Example Google Font configuration
+    'Space Grotesk':
+        (
+            'family': (
+                'Space Grotesk',
+                sans-serif,
+            ),
+            'url': 'Space+Grotesk:400,500,600,700',
+            'properties': (
+                'base': (
+                    'font-size-base': 1rem,
+                ),
+            ),
+        ),
+    'Lato': (
+        'family': (
+            'Lato',
+            sans-serif,
+        ),
+        'properties': (
+            'base': (
+                'font-size-base': 1rem,
+            ),
+        ),
+    )
+);
+
+// Color palette definition
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'airproof': (
+            'o-color-1': #000000,
+            'o-color-2': #BBE1FA,
+            'o-color-3': #CEF8A1,
+            'o-color-4': #ffffff,
+            'o-color-5': #0B8EE6,
+        ),
+    )
+);
+
+// Add the created palette to the list of palettes offered by the Website Builder
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'airproof');
+
+// Override Odoo's website values through the $o-website-values-palettes map
+$o-website-values-palettes: (
+    (
+        // Templates
+        // 'header-template': 'custom',
+        // 'footer-template': 'custom',
+
+        // Color palette
+        'color-palettes-name': 'airproof',
+
+        // Fonts (use font names defined in $o-theme-font-configs)
+        'font': 'Lato',
+        'headings-font': 'Space Grotesk',
+        // 'navbar-font': 'Poppins',
+        // 'buttons-font': 'Poppins',
+
+        // Buttons
+        // 'btn-primary-bg': #your-button-color,
+        // 'btn-primary-border': #your-button-border,
+        // 'btn-secondary-bg': #your-secondary-button,
+
+        // Layout & Spacing
+        // 'border-radius': 0.375rem,
+        // 'box-shadow': 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075),
+
+        // Add your custom palette values here...
+    ),
+);
+
+// Additional SCSS variables can be defined here
+// $custom-variable: value;

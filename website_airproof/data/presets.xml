@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <!-- Website Presets -->
+    <!-- Center align menu items -->
+    <record id="website.template_header_default_align_right" model="ir.ui.view">
+        <field name="active" eval="True" />
+    </record>
+
+    <!-- eCommerce Presets -->
+    <!-- Hide product categories -->
+    <!-- <record id="website_sale.products_categories" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record> -->
+
+    <!-- Portal Presets -->
+    <!-- Disable language selector in footer -->
+    <record id="portal.footer_language_selector" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+
+    <!-- Additional common presets -->
+    <!-- Hide website footer -->
+    <!-- <record id="website.footer_custom" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record> -->
+
+    <!-- Hide website header -->
+    <!-- <record id="website.header_navbar" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record> -->
+</odoo>

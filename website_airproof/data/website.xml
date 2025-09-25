@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+   <record id="website.default_website" model="website">
+      <field name="name">Airproof</field>
+      <field name="logo" type="base64" file="website_airproof/static/src/img/content/logo.svg"/>
+      <field name="favicon" type="base64" file="website_airproof/static/description/favicon.png" />
+      <!-- <field name="shop_ppg">18</field>
+      <field name="shop_ppr">3</field> -->
+      <field name="cookies_bar" eval="True" />
+      <!-- <field name="contact_us_button_url">/contact-us</field> -->
+      <field name="social_facebook">https://www.facebook.com/yourcompany</field>
+      <field name="social_instagram">https://www.instagram.com/yourcompany</field>
+      <field name="social_linkedin">https://www.linkedin.com/company/yourcompany</field>
+      <field name="social_youtube">https://www.youtube.com/c/yourcompany</field>
+   </record>
+</odoo>
