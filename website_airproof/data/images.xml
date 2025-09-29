@@ -1,8 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
-    <record id="img_icon" model="ir.attachment">
-        <field name="name">Mon image</field>
-        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icon.png" />
+    <!-- Branding -->
+    <record id="logo" model="ir.attachment">
+        <field name="name">Logo Airproof</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/logo.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+
+    <!-- ICONS -->
+    <record id="img_arrow_white" model="ir.attachment">
+        <field name="name">White arrow icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/arrow-white.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_glasses" model="ir.attachment">
+        <field name="name">Glasses icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/glasses.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_4k" model="ir.attachment">
+        <field name="name">4K icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/4k.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_hand_drone" model="ir.attachment">
+        <field name="name">Hand with drone icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/hand-drone.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_control" model="ir.attachment">
+        <field name="name">Control icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/control.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+
+    <!-- HOMEPAGE -->
+    <!-- Add drone image in the library -->
+    <record id="img_accessories" model="ir.attachment">
+        <field name="name">Drone accessories picture</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/accessories.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_drone_robin" model="ir.attachment">
+        <field name="name">Drone Robin picture</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/drone-robin.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_school" model="ir.attachment">
+        <field name="name">Drone school picture</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/school.webp" />
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True" />
     </record>
