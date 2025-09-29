@@ -22,7 +22,7 @@
                     <t t-set="no_footer" t-value="True" />
                     <!-- Content -->
                     <div id="wrap" class="oe_structure">
-                        <p>Hello</p>
+                        <img src="/web/image/website_airproof.img_icon" alt="" />
 
                     </div>
                 </t>

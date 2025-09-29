@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="img_icon" model="ir.attachment">
+        <field name="name">Mon image</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icon.png" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+</odoo>
