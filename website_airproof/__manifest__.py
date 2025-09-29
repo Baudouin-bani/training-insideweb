@@ -26,6 +26,10 @@
 
          "web.assets_frontend": [
             "website_airproof/static/src/scss/base/fonts.scss",
+            # LAYOUT
+            "website_airproof/static/src/scss/layout/header.scss",
+            # SNIPPETS
+            'website_airproof/static/src/scss/snippets/caroussel.scss',
         ],
 
     },

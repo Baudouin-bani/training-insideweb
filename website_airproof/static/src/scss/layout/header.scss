@@ -1,0 +1,16 @@
+#wrapwrap {
+    // Green underline on active nav items
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .nav-link.active {
+        border-bottom: 2px solid o-color('o-color-1');
+    }
+    // Arrow for the collapsable nav items
+    #top_menu .dropdown-toggle::after {
+        vertical-align: middle;
+        width: 10px;
+        height: 10px;
+        border: none;
+        content: '';
+        background-image: url('/website_airproof/static/src/img/content/icons/angle-down-solid.svg');
+    }
+}
