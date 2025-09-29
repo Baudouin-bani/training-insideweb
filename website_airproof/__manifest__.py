@@ -11,7 +11,7 @@
         # Options
         "data/presets.xml",
         "data/website.xml",
-        "data/images.xml",
+
         # Pages
         "data/pages/home.xml",
     ],

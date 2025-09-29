@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
-<!-- Désactiver la page d’accueil par défaut -->
-<record id="website.homepage" model="ir.ui.view">
-    <field name="active" eval="False" />
-</record>
+    <!-- Désactiver la page d’accueil par défaut -->
+    <record id="website.homepage" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
 
     <record id="page_home" model="website.page">
         <field name="name">Home</field>
@@ -22,7 +22,7 @@
                     <t t-set="no_footer" t-value="True" />
                     <!-- Content -->
                     <div id="wrap" class="oe_structure">
-                       <img src="/web/image/website_airproof.img_icon" alt="" />
+                        <p>Hello</p>
 
                     </div>
                 </t>
