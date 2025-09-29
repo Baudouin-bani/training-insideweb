@@ -40,6 +40,38 @@
         <field name="public" eval="True" />
     </record>
 
+    <!-- MEGA-MENU -->
+    <record id="img_mini" model="ir.attachment">
+        <field name="name">Drone Airproof Mini</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/airproof-mini.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_pro" model="ir.attachment">
+        <field name="name">Drone Airproof Pro</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/airproof-pro.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_robin" model="ir.attachment">
+        <field name="name">Drone Airproof Robin</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/airproof-robin.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_falcon" model="ir.attachment">
+        <field name="name">Drone Airproof Falcon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/airproof-falcon.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_eagle" model="ir.attachment">
+        <field name="name">Drone Airproof Eagle</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/airproof-eagle.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+
     <!-- HOMEPAGE -->
     <!-- Add drone image in the library -->
     <record id="img_accessories" model="ir.attachment">

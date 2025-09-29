@@ -5,6 +5,9 @@
     <record id="website.template_header_default_align_right" model="ir.ui.view">
         <field name="active" eval="True" />
     </record>
+    <record id="website.template_header_default_align_right" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
 
     <!-- eCommerce Presets -->
     <!-- Hide product categories -->

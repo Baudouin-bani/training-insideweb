@@ -6,12 +6,13 @@
     "license" : "OEEL-1",
     "category": "Website/Theme",
     "author": "Web Design Odoo",
-    "depends": ["website"],
+    "depends": ["website","website_sale"],
     "data": [
         # Options
         "data/presets.xml",
         "data/website.xml",
         "data/images.xml",
+        "data/menu.xml",
         # Pages
         "data/pages/home.xml",
     ],
