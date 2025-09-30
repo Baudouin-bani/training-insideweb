@@ -7,3 +7,11 @@ $input-placeholder-color:      o-color('o-color-1') !default;
 // Cards
 $card-border-width:            0 !default;
 
+// Navigation
+$navbar-light-color: o-color('o-color-5') !default;
+$navbar-light-active-color: o-color('o-color-5') !default;
+$navbar-light-hover-color: o-color('o-color-5') !default;
+$navbar-light-disabled-color: rgba(o-color('o-color-5'), .5) !default;
+$navbar-padding-y: 1.4rem !default;
+$navbar-nav-link-padding-x: 1rem !default;
+

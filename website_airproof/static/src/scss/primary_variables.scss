@@ -59,7 +59,7 @@ $o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'airp
 $o-website-values-palettes: (
     (
         // Templates
-        // 'header-template': 'custom',
+        'header-template': 'airproof',
         // 'footer-template': 'custom',
 
         // Color palette
@@ -68,8 +68,10 @@ $o-website-values-palettes: (
         // Fonts (use font names defined in $o-theme-font-configs)
         'font': 'Lato',
         'headings-font': 'Space Grotesk',
-        // 'navbar-font': 'Poppins',
+        'navbar-font': 'Lato',
         // 'buttons-font': 'Poppins',
+
+
 
         // Buttons
         // 'btn-primary-bg': #your-button-color,
@@ -80,7 +82,9 @@ $o-website-values-palettes: (
         // 'border-radius': 0.375rem,
         // 'box-shadow': 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075),
 
-        // Add your custom palette values here...
+        // Header
+        'hamburger-position': 'center',
+        'header-font-size': 0.875rem,
     ),
 );
 
