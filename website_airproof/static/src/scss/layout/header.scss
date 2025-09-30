@@ -14,16 +14,16 @@
         background-image: url('/website_airproof/static/src/img/content/icons/angle-down-solid.svg');
     }
     // Shopping cart
-    .my_cart_quantity,
-    .my_wish_quantity  {
-        height: 18px;
-        width: 18px;
-        border-radius: 99px;
-        background-color: o-color('o-color-1') !important;
-        color: o-color('black') !important;
-    }
+    // .my_cart_quantity,
+    // .my_wish_quantity  {
+    //     height: 18px;
+    //     width: 18px;
+    //     border-radius: 99px;
+    //     background-color: o-color('o-color-1') !important;
+    //     color: o-color('black') !important;
+    // }
     // Centre logo
-    @media (min-width: 992px) {
-        header .o_header_centered_logo { width: 50%; }
-    }
+    // @media (min-width: 992px) {
+    //     header .o_header_centered_logo { width: 50%; }
+    // }
 }

@@ -6,7 +6,7 @@
     "license" : "OEEL-1",
     "category": "Website/Theme",
     "author": "Web Design Odoo",
-    "depends": ["website","website_sale","website_wishlist"],
+    "depends": ["website","website_sale","website_sale_wishlist"],
     "data": [
         # Options
         "data/presets.xml",
@@ -17,6 +17,8 @@
         "data/pages/home.xml",
         # Views
         "views/website_template.xml",
+        "views/website_sale_template.xml",
+        "views/snippets/options.xml",
     ],
     "assets": {
         "web._assets_primary_variables": [
@@ -32,8 +34,8 @@
             "website_airproof/static/src/scss/layout/header.scss",
             # SNIPPETS
             'website_airproof/static/src/scss/snippets/caroussel.scss',
-            'website_airproof/static/src/js/mouse_follower.js',
             # COMPONENTS
+            'website_airproof/static/src/js/mouse_follower.js',
             'website_airproof/static/src/scss/components/mouse_follower.scss',
 
         ],

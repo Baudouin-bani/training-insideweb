@@ -39,6 +39,12 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True" />
     </record>
+    <record id="img_shopping" model="ir.attachment">
+        <field name="name">Shopping icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/shopping.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
 
     <!-- MEGA-MENU -->
     <record id="img_mini" model="ir.attachment">
