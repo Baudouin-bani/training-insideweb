@@ -45,6 +45,18 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True" />
     </record>
+    <record id="img_phone" model="ir.attachment">
+        <field name="name">Phone icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/phone.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_envelop" model="ir.attachment">
+        <field name="name">Envelop icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/envelop.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
 
     <!-- MEGA-MENU -->
     <record id="img_mini" model="ir.attachment">

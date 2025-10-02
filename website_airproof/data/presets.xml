@@ -43,10 +43,13 @@
         <field name="active" eval="False" />
     </record>
 
-    <!-- Additional common presets -->
-    <!-- Hide website footer -->
-    <!-- <record id="website.footer_custom" model="ir.ui.view">
-        <field name="active" eval="False"/>
-    </record> -->
+    <!-- Disable Default Footer -->
+    <record id="website.footer_custom" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+    <!-- Enable Copyright -->
+    <record id="website.footer_no_copyright" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
 
 </odoo>

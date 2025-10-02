@@ -6,7 +6,7 @@
     "license" : "OEEL-1",
     "category": "Website/Theme",
     "author": "Web Design Odoo",
-    "depends": ["website","website_sale","website_sale_wishlist"],
+    "depends": ["website","website_sale","website_sale_wishlist","website_mass_mailing"],
     "data": [
         # Options
         "data/presets.xml",
@@ -33,6 +33,7 @@
             # LAYOUT
             "website_airproof/static/src/scss/layout/header.scss",
             # SNIPPETS
+            'website_airproof/static/src/scss/snippets/caroussel.scss',
             'website_airproof/static/src/scss/snippets/caroussel.scss',
             # COMPONENTS
             'website_airproof/static/src/js/mouse_follower.js',

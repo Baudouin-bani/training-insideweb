@@ -19,8 +19,6 @@
                     <t t-set="additional_title">One step beyond the horizon | Airproof</t>
                     <t t-set="pageName" t-valuef="x_wd_mapage" />
                     <t t-set="meta_description">Description de ma page</t>
-                    <t t-set="no_header" t-value="False" />
-                    <t t-set="no_footer" t-value="True" />
                     <!-- Content -->
                     <div id="wrap" class="oe_structure">
                         <!-- Carousel -->
