@@ -91,5 +91,17 @@ $o-website-values-palettes: (
     ),
 );
 
+// Shapes
+$o-bg-shapes: map-merge($o-bg-shapes,
+    (
+        'illustration': map-merge(
+            map-get($o-bg-shapes, 'illustration') or (),
+            (
+                'airproof/waves': ('position': left bottom, 'size': 100% auto, 'colors': (1), 'repeat-y': false),
+            ),
+        ),
+    )
+);
+
 // Additional SCSS variables can be defined here
 // $custom-variable: value;

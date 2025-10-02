@@ -116,6 +116,12 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True" />
     </record>
+    <record id="img_drone_flying" model="ir.attachment">
+        <field name="name">Drone flying picture</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/drone-flying.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
 
     <!-- SNIPPET CAROUSSEL -->
     <record id="img_sticker" model="ir.attachment">

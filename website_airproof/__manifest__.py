@@ -13,6 +13,7 @@
         "data/website.xml",
         "data/images.xml",
         "data/menu.xml",
+        "data/shapes.xml",
         # Pages
         "data/pages/home.xml",
         # Views

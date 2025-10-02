@@ -270,6 +270,26 @@
                                 </div>
                             </div>
                         </section>
+
+                        <!-- Text-image block & Background shape -->
+                        <!-- Text-image block & Background shape -->
+                        <section class="s_text_image o_cc o_cc3 o_colored_level pt120 pb96" data-snippet="s_image_text" data-name="Image - Text" style="background-color: rgb(41, 128, 187);" data-oe-shape-data="{'shape': 'illustration/airproof/waves', 'colors': {'c1': '#BBE1FA'}, 'flip': ['x']}">
+                            <div class="o_we_shape o_illustration_airproof_waves o_we_flip_x" style="background-image: url('/web_editor/shape/illustration%2Fairproof%2Fwaves.svg?c1=%23BBE1FA'); background-position: 100% 100%;" />
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4 offset-lg-1 pt16 pb16 o_colored_level">
+                                        <!-- Image shape -->
+                                        <img src="/web/image/website_airproof.img_drone_flying" class="img img-fluid" alt="Drone flying" />
+                                    </div>
+                                    <div class="col-lg-5 offset-lg-1 pt16 pb16 o_colored_level">
+                                        <span class="text-o-color-1 text-uppercase">The sky is the limit</span>
+                                        <h2 class="pb-4">The TikTok Creator's <br />Dream Drone</h2>
+                                        <p class="pb-3 lead fw-bold">This drone offers true vertical video shooting for all your TikTok and Instagram Reels needs.</p>
+                                        <a href="#" class="mb-2 btn btn-primary btn-lg">Read more<img src="/web/image/website_airproof.img_arrow_white" alt="" class="img img-fluid ms-2" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </t>
             </t>
