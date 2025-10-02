@@ -18,7 +18,9 @@ $headings-font-weight: 700 !default;
 $font-weight-normal: 400 !default;
 
 // Buttons + Forms
-$input-placeholder-color:      o-color('o-color-1') !default;
+$input-border-radius: 10px !default;
+$input-border-color: o-color('black') !default;
+$input-border-width: 1px !default;
 // Cards
 $card-border-width:            0 !default;
 
