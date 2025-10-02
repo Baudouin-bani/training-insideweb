@@ -40,9 +40,10 @@
             &:hover {
                 border: none;
                 background-color: #F0FDE3;
-                transform: translate(-10px, -10px);
-                .o_carousel_product_card_img_top { mix-blend-mode: multiply; }
+                transform: translateY(-10px);
+
             }
+            .o_carousel_product_card_img_top { mix-blend-mode: multiply; }
         }
         .o_carousel_product_card .card-body { background-color: transparent !important; }
         .carousel-control-prev:after { border-radius: 10px 0 0 10px !important; }
