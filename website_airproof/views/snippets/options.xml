@@ -18,6 +18,13 @@
         </xpath>
     </template>
 
+    <!-- Add option footer -->
+    <template id="template_footer_opt" inherit_id="website.snippet_options" name="Airproof Footer Template - Option">
+        <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+            <we-button title="Airproof" data-customize-website-views="website_airproof.footer" data-customize-website-variable="'airproof'" data-img="/website_airproof/static/src/img/wbuilder/template-footer-opt.svg" />
+        </xpath>
+    </template>
+
     <!-- Add custom snippets to the list of building blocks -->
     <template id="snippets" inherit_id="website.snippets" name="Airproof - Custom Snippets">
         <xpath expr="//snippets[@id='snippet_groups']/*[1]" position="before">
