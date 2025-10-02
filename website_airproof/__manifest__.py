@@ -14,6 +14,7 @@
         "data/images.xml",
         "data/menu.xml",
         "data/shapes.xml",
+        'data/gradients.xml',
         # Pages
         "data/pages/home.xml",
         # Views
