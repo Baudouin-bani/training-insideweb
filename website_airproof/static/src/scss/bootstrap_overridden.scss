@@ -1,17 +1,35 @@
 // Typography
-$h5-font-size:                 o-to-rem(10px) !default;
-// Navbar
-$navbar-nav-link-padding-x:    1rem!default;
+$h1-font-size: 3.125rem !default;
+$h2-font-size: 2.5rem !default;
+$h3-font-size: 2rem !default;
+$h4-font-size: 1.75rem !default;
+$h5-font-size: 1.5rem !default;
+$h6-font-size: 1.25rem !default;
+$display-font-sizes: (
+  1: 6.25rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+$headings-font-weight: 700 !default;
+$font-weight-normal: 400 !default;
+
 // Buttons + Forms
 $input-placeholder-color:      o-color('o-color-1') !default;
 // Cards
 $card-border-width:            0 !default;
 
 // Navigation
-// $navbar-light-color: o-color('o-color-5') !default;
-// $navbar-light-active-color: o-color('o-color-5') !default;
-// $navbar-light-hover-color: o-color('o-color-5') !default;
-// $navbar-light-disabled-color: rgba(o-color('o-color-5'), .5) !default;
-// $navbar-padding-y: 1.4rem !default;
-// $navbar-nav-link-padding-x: 1rem !default;
+$navbar-light-color: o-color('o-color-5') !default;
+$navbar-light-active-color: o-color('o-color-5') !default;
+$navbar-light-hover-color: o-color('o-color-5') !default;
+$navbar-light-disabled-color: rgba(o-color('o-color-5'), .5) !default;
+$navbar-padding-y: 1.4rem !default;
+$navbar-nav-link-padding-x: 1rem !default;
 
+// Borders
+$btn-border-radius-lg: 0 10px 10px 10px !default;
+$border-radius: 20px !default;

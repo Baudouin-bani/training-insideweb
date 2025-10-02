@@ -69,14 +69,17 @@ $o-website-values-palettes: (
         'font': 'Lato',
         'headings-font': 'Space Grotesk',
         'navbar-font': 'Lato',
-        // 'buttons-font': 'Poppins',
+        'buttons-font': 'Lato',
 
 
 
         // Buttons
-        // 'btn-primary-bg': #your-button-color,
-        // 'btn-primary-border': #your-button-border,
-        // 'btn-secondary-bg': #your-secondary-button,
+        'btn-border-radius': 10px,
+        'link-underline': 'never',
+        'btn-border-radius-sm': 10px,
+        'btn-font-size-sm': 0.875rem,
+        'btn-font-size-lg': 1.125rem,
+        'btn-secondary-outline': true,
 
         // Layout & Spacing
         // 'border-radius': 0.375rem,

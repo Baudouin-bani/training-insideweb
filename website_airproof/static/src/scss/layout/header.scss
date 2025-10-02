@@ -5,7 +5,7 @@
         border-bottom: 2px solid o-color('o-color-1');
     }
     // Arrow for the collapsable nav items
-    #top_menu_collapse .dropdown-toggle::after {
+    #top_menu .dropdown-toggle::after {
         vertical-align: middle;
         width: 10px;
         height: 10px;

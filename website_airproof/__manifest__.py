@@ -18,6 +18,7 @@
         # Views
         "views/website_template.xml",
         "views/website_sale_template.xml",
+        "views/snippets/s_airproof_carousel.xml",
         "views/snippets/options.xml",
     ],
     "assets": {
@@ -34,7 +35,8 @@
             "website_airproof/static/src/scss/layout/header.scss",
             # SNIPPETS
             'website_airproof/static/src/scss/snippets/caroussel.scss',
-            'website_airproof/static/src/scss/snippets/caroussel.scss',
+            'website_airproof/static/src/scss/snippets/newsletter.scss',
+            'website_airproof/static/src/snippets/s_airproof_carousel/000.scss',
             # COMPONENTS
             'website_airproof/static/src/js/mouse_follower.js',
             'website_airproof/static/src/scss/components/mouse_follower.scss',
