@@ -23,6 +23,8 @@
         "views/website_sale_template.xml",
         "views/snippets/s_airproof_carousel.xml",
         "views/snippets/options.xml",
+        # Templates
+        'views/new_page_template_templates.xml',
     ],
     "assets": {
         "web._assets_primary_variables": [
@@ -46,6 +48,13 @@
 
         ],
 
+    },
+    # Templates
+    'new_page_templates': {
+        'airproof': {
+            'services': ['s_parallax', 's_airproof_key_benefits_h2', 's_call_to_action',
+            's_airproof_carousel']
+        }
     },
 
 
