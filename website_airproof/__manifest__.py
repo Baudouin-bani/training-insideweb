@@ -40,6 +40,7 @@
             "website_airproof/static/src/scss/layout/header.scss",
             # PAGES
             "website_airproof/static/src/scss/pages/shop.scss",
+            "website_airproof/static/src/scss/pages/product_page.scss",
             # SNIPPETS
             'website_airproof/static/src/scss/snippets/caroussel.scss',
             'website_airproof/static/src/scss/snippets/newsletter.scss',

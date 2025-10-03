@@ -52,6 +52,7 @@
     <record id="website_sale_wishlist.add_to_wishlist" model="ir.ui.view">
         <field name="active" eval="False" />
     </record>
+
 <!-- Ecommerce Presets -->
     <!-- Enable product categories in the left // View template in: odoo/addons/website_sale/views/templates.xml -->
     <record id="website_sale.products_categories" model="ir.ui.view">
@@ -75,6 +76,30 @@
     </record>
     <!-- Enable Style card for products design -->
     <record id="website_sale.products_design_card" model="ir.ui.view">
+        <field name="active" eval="True" />
+    </record>
+
+    <!-- PRODUCT PAGE -->
+<!-- Whishlist Presets -->
+    <!-- Enable Wishlist on product // View template in: odoo/addons/website_sale_whishlist/views/website_sale_whishlist_template.xml  -->
+    <record id="website_sale_wishlist.product_add_to_wishlist" model="ir.ui.view">
+        <field name="active" eval="True" />
+    </record>
+<!-- Ecommerce Presets -->
+    <!-- Disable Quantity -->
+    <record id="website_sale.product_quantity" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+    <!-- Disable Terms and conditions -->
+    <record id="website_sale.product_custom_text" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+    <!-- Disable Share buttons -->
+    <record id="website_sale.product_share_buttons" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+    <!-- Enable More information -->
+    <record id="website_sale.accordion_more_information" model="ir.ui.view">
         <field name="active" eval="True" />
     </record>
 
