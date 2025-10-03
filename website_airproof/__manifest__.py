@@ -17,6 +17,7 @@
         'data/gradients.xml',
         # Pages
         "data/pages/home.xml",
+        "data/pages/contact.xml",
         # Views
         "views/website_template.xml",
         "views/website_sale_template.xml",

@@ -63,6 +63,24 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True" />
     </record>
+    <record id="img_check" model="ir.attachment">
+        <field name="name">Check icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/check.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_phone_black" model="ir.attachment">
+        <field name="name">Black Phone icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/phone-black.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+    <record id="img_envelop_black" model="ir.attachment">
+        <field name="name">Black Envelop icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/envelop-black.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
 
     <!-- MEGA-MENU -->
     <record id="img_mini" model="ir.attachment">
@@ -119,6 +137,14 @@
     <record id="img_drone_flying" model="ir.attachment">
         <field name="name">Drone flying picture</field>
         <field name="datas" type="base64" file="website_airproof/static/src/img/content/drone-flying.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+
+    <!-- CONTACT PAGE -->
+    <record id="img_topview" model="ir.attachment">
+        <field name="name">Fields topview</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/topview.webp" />
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True" />
     </record>
