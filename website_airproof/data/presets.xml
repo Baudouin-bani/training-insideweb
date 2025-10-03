@@ -28,14 +28,6 @@
     <record id="website.header_social_links" model="ir.ui.view">
         <field name="active" eval="False" />
     </record>
-    <!-- Activate language selector -->
-    <record id="website.header_language_selector" model="ir.ui.view">
-        <field name="active" eval="True" />
-    </record>
-    <!-- Display only text for language selection -->
-    <record id="website.header_language_selector_flag" model="ir.ui.view">
-        <field name="active" eval="False" />
-    </record>
 
     <!-- Disable Default Footer -->
     <record id="website.footer_custom" model="ir.ui.view">
