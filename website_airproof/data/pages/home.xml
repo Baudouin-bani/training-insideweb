@@ -92,6 +92,7 @@
                             </div>
                         </section> -->
                         <!-- Custom carousel snippet -->
+                        <!-- Custom carousel snippet -->
                         <section class="s_airproof_carousel s_carousel_wrapper" data-snippet="s_airproof_carousel" data-name="Carousel custom">
                             <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000" id="s_carousel_homepage">
                                 <ol class="carousel-indicators o_we_no_overlay">
@@ -104,25 +105,25 @@
                                         <div class="oe_unremovable container">
                                             <div class="row content">
                                                 <div class="carousel-content col-lg-6 pt88 position-relative o_colored_level">
-                                                    <!-- Image -->
-                                                    <img src="/web/image/website_airproof.img_sticker" class="img img-fluid position-absolute x_sticker" />
-                                                    <!-- Text -->
+                                                    <!-- Image animation -->
+                                                    <img src="/web/image/website_airproof.img_sticker" class="img img-fluid position-absolute x_sticker o_animate o_anim_rotate_in o_visible" style="animation-delay: 0.8s; --wanim-intensity: 30;" />
+                                                    <!-- Text animation -->
                                                     <h1 class="x_carousel_title position-relative display-1 z-index-1">
-                                                        One step
+                                                        <span class="o_animated_text o_animate o_anim_fade_in o_anim_from_bottom o_visible">One step</span>
                                                         <br />
-                                                        beyond
+                                                        <span class="o_animated_text o_animate o_anim_fade_in o_anim_from_bottom o_visible" style="animation-delay: 0.2s;">beyond</span>
                                                         <br />
-                                                        the horizon
+                                                        <span class="o_animated_text o_animate o_anim_fade_in o_anim_from_bottom o_visible" style="animation-delay: 0.4s;">the horizon</span>
                                                     </h1>
                                                     <p class="lead fw-bold">
-                                                       We create custom waterproof drones<br />for professional pilots.
+                                                        <span class="o_animated_text o_animate o_anim_fade_in o_anim_from_bottom o_visible" style="animation-delay: 0.6s;">We create custom waterproof drones<br />for professional pilots.</span>
                                                     </p>
-                                                    <a href="/shop" class="mb-2 btn btn-secondary btn-lg">​​ Discover our drones <img src="/web/image/website_airproof.img_arrow" alt="" class="img img-fluid ms-2" />
+                                                    <a href="/shop" class="mb-2 btn btn-secondary btn-lg o_anim_fade_in o_animate o_anim_from_bottom o_visible" style="animation-delay: 0.8s;">​​ Discover our drones <img src="/web/image/website_airproof.img_arrow" alt="" class="img img-fluid ms-2" />
                                                     </a>
                                                 </div>
                                                 <div class="carousel-content col-lg-6 o_colored_level">
-                                                    <!-- Image -->
-                                                    <img src="/web/image/website_airproof.img_drone" class="img img-fluid" alt="Drone" />
+                                                    <!-- Image animation -->
+                                                    <img src="/web/image/website_airproof.img_drone" class="img img-fluid o_animate o_anim_zoom_out o_visible" alt="Drone" />
                                                     <div
                                                         class="x_bubble row justify-content-center justify-content-lg-end position-static position-lg-absolute">
                                                         <div class="col-5 col-lg-5 offset-lg-7 z-index-1 x_bubble_item x_bubble1 o_cc o_cc1 mb-3 pt24 pb24 px-4">
@@ -224,23 +225,23 @@
                                         <h2>Best drone of the year</h2>
                                         <p>We do this through an unparalleled commitment to R&amp;amp;D, a culture of constant innovation and curiosity, and a focus on transforming complex technology into easy-to-use devices.</p>
                                     </div>
-                                    <!-- Columns -->
-                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center" style="z-index: 2; grid-area: 6 / 1 / 12 / 4;">
+                                    <!-- Columns animation -->
+                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center o_anim_fade_in o_animate o_anim_from_bottom o_visible" style="z-index: 2; grid-area: 6 / 1 / 12 / 4; --wanim-intensity: 15;">
                                         <img class="img-fluid m-3 bg-o-color-1 fa-3x rounded-circle p-4 w-25 w-lg-50" src="/web/image/website_airproof.img_glasses" alt="Glasses icon" />
                                         <h3 class="mt-3 text-white">Immersive Flight</h3>
                                         <p>Thanks to our&amp;nbsp;<br />Next Gen Goggles</p>
                                     </div>
-                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center" style="z-index: 2; grid-area: 5 / 4 / 12 / 7;">
+                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center o_anim_fade_in o_animate o_anim_from_bottom o_visible" style="z-index: 2; grid-area: 5 / 4 / 12 / 7; --wanim-intensity: 15; animation-delay: 0.2s;">
                                         <img class="img-fluid m-3 bg-o-color-4 fa-3x rounded-circle p-4 w-25 w-lg-50" src="/web/image/website_airproof.img_4k" alt="4K image" />
                                         <h3 class="mt-3 text-white">4K Video</h3>
                                         <p>Don’t compromise&amp;nbsp;<br />on video quality</p>
                                     </div>
-                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center" style="z-index: 2; grid-area: 6 / 7 / 13 / 10; ">
+                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center o_anim_fade_in o_animate o_anim_from_bottom o_visible" style="z-index: 2; grid-area: 6 / 7 / 13 / 10; --wanim-intensity: 15; animation-delay: 0.4s;">
                                         <img class="img-fluid m-3 bg-o-color-1 fa-3x rounded-circle p-4 w-25 w-lg-50" src="/web/image/website_airproof.img_hand_drone" alt="drone hold in hand" />
                                         <h3 class="mt-3 text-white">Palm-Sized</h3>
                                         <p>Small but filled&amp;nbsp;<br />with advanced features</p>
                                     </div>
-                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center " style="z-index: 2; grid-area: 5 / 10 / 12 / 13;">
+                                    <div class="o_grid_item o_colored_level g-height-7 g-col-lg-3 col-lg-3 text-center o_anim_fade_in o_animate o_anim_from_bottom o_visible" style="z-index: 2; grid-area: 5 / 10 / 12 / 13; --wanim-intensity: 15; animation-delay: 0.6s;">
                                         <img class="img-fluid m-3 bg-o-color-4 fa-3x rounded-circle p-4 w-25 w-lg-50" src="/web/image/website_airproof.img_control" alt="Control icon" />
                                         <h3 class="mt-3 text-white">Intuitive Control</h3>
                                         <p>Squeeze the trigger&amp;nbsp;<br />and bolt forward</p>
@@ -248,10 +249,9 @@
                                 </div>
                             </div>
                         </section>
-
                         <!-- Latest products section -->
                         <section data-snippet="s_dynamic_snippet_products" class="s_dynamic_snippet_products s_dynamic s_dynamic_empty pt32 pb32 o_colored_level s_product_product_airproof o_dynamic_snippet_empty o_cc o_cc5" data-custom-template-data="{}" data-name="Produits"
-                            data-product-category-id="all" data-show-variants="" data-number-of-records="16" data-filter-id="1" data-carousel-interval="5000" data-template-key="website_airproof.dynamic_filter_template_product_product_airproof"
+                            data-product-category-id="50" data-show-variants="" data-number-of-records="16" data-filter-id="1" data-carousel-interval="5000" data-template-key="website_airproof.dynamic_filter_template_product_product_airproof"
                             style="background-image: linear-gradient(0deg, rgb(41, 128, 187) 0%, rgb(11, 142, 230) 100%) !important;">
                             <div class="container">
                                 <div class="row s_nb_column_fixed">
@@ -270,8 +270,6 @@
                                 </div>
                             </div>
                         </section>
-
-                        <!-- Text-image block & Background shape -->
                         <!-- Text-image block & Background shape -->
                         <section class="s_text_image o_cc o_cc3 o_colored_level pt120 pb96" data-snippet="s_image_text" data-name="Image - Text" style="background-color: rgb(41, 128, 187);" data-oe-shape-data="{'shape': 'illustration/airproof/waves', 'colors': {'c1': '#BBE1FA'}, 'flip': ['x']}">
                             <div class="o_we_shape o_illustration_airproof_waves o_we_flip_x" style="background-image: url('/web_editor/shape/illustration%2Fairproof%2Fwaves.svg?c1=%23BBE1FA'); background-position: 100% 100%;" />
