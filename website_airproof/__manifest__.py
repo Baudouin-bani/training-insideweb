@@ -9,7 +9,6 @@
     "depends": ["website"],
     "data": [
         # Options
-        "data/presets.xml",
         "data/website.xml",
     ],
     "assets": {
