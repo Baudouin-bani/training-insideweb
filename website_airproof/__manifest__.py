@@ -11,9 +11,6 @@
         # Options
         "data/presets.xml",
         "data/website.xml",
-
-        # Pages
-        "data/pages/home.xml",
     ],
     "assets": {
         "web._assets_primary_variables": [
