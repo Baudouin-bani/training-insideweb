@@ -149,6 +149,14 @@
         <field name="public" eval="True" />
     </record>
 
+    <!-- SHOP PAGE -->
+    <record id="img_topview3" model="ir.attachment">
+        <field name="name">Highway topview</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/topview3.webp" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
+
     <!-- SNIPPET CAROUSSEL -->
     <record id="img_sticker" model="ir.attachment">
         <field name="name">Sticker logo</field>

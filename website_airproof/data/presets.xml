@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
-    <!-- Website Presets -->
-<!-- HEADER -->
+<!-- Portal Presets -->
+    <!-- Disable language selector in footer -->
+    <record id="portal.footer_language_selector" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+
+<!-- Website Presets -->
+    <!-- HEADER -->
     <!-- Disable Call-to-action in header // View template in: odoo/addons/website/views/website_templates.xml -->
     <record id="website.header_call_to_action" model="ir.ui.view">
         <field name="active" eval="False" />
@@ -31,18 +37,6 @@
         <field name="active" eval="False" />
     </record>
 
-    <!-- eCommerce Presets -->
-    <!-- Hide product categories -->
-    <!-- <record id="website_sale.products_categories" model="ir.ui.view">
-        <field name="active" eval="False"/>
-    </record> -->
-
-    <!-- Portal Presets -->
-    <!-- Disable language selector in footer -->
-    <record id="portal.footer_language_selector" model="ir.ui.view">
-        <field name="active" eval="False" />
-    </record>
-
     <!-- Disable Default Footer -->
     <record id="website.footer_custom" model="ir.ui.view">
         <field name="active" eval="False" />
@@ -50,6 +44,38 @@
     <!-- Enable Copyright -->
     <record id="website.footer_no_copyright" model="ir.ui.view">
         <field name="active" eval="False" />
+    </record>
+
+    <!-- SHOP PAGE -->
+<!-- Whishlist Presets -->
+    <!-- Disable Wishlist on shop // View template in: odoo/addons/website_sale_whishlist/views/website_sale_whishlist_template.xml -->
+    <record id="website_sale_wishlist.add_to_wishlist" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+<!-- Ecommerce Presets -->
+    <!-- Enable product categories in the left // View template in: odoo/addons/website_sale/views/templates.xml -->
+    <record id="website_sale.products_categories" model="ir.ui.view">
+        <field name="active" eval="True" />
+    </record>
+    <!-- Disable product categories on top -->
+    <record id="website_sale.products_categories_top" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+    <!-- Disable Collapse categories recursive -->
+    <record id="website_sale.option_collapse_products_categories" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+    <!-- Enable Product Attributes filtring -->
+    <record id="website_sale.products_attributes" model="ir.ui.view">
+        <field name="active" eval="True" />
+    </record>
+    <!-- Disable Grid or list option -->
+    <record id="website_sale.add_grid_or_list_option" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+    <!-- Enable Style card for products design -->
+    <record id="website_sale.products_design_card" model="ir.ui.view">
+        <field name="active" eval="True" />
     </record>
 
 </odoo>
