@@ -8,19 +8,21 @@
     "author": "Web Design Odoo",
     "depends": ["website","website_sale","website_sale_wishlist","website_mass_mailing"],
     "data": [
-        # Options
-        "data/presets.xml",
-        "data/website.xml",
-        "data/images.xml",
-        "data/menu.xml",
-        # Pages
-        "data/pages/home.xml",
-        # Views
-        "views/website_template.xml",
-        "views/website_sale_template.xml",
         # Snippets
         "views/snippets/options.xml",
         "views/snippets/s_airproof_carousel.xml",
+        # Options
+        "data/presets.xml",
+        "data/website.xml",
+        # Menu
+        "data/menu.xml",
+        # Pages
+        "data/pages/home.xml",
+        # Frontend views
+        "views/website_template.xml",
+        "views/website_sale_template.xml",
+        # Images
+        "data/images.xml",
     ],
     "assets": {
         "web._assets_primary_variables": [
@@ -31,15 +33,19 @@
         ],
 
          "web.assets_frontend": [
+            #SCSS_FONTS
             "website_airproof/static/src/scss/base/fonts.scss",
-            # LAYOUT
+            # SCSS_LAYOUT
             "website_airproof/static/src/scss/layout/header.scss",
-            # SNIPPETS
+            # SCSS_SNIPPETS
             'website_airproof/static/src/scss/snippets/caroussel.scss',
             'website_airproof/static/src/scss/snippets/newsletter.scss',
-            # COMPONENTS
+            # JS_COMPONENTS
             'website_airproof/static/src/js/mouse_follower.js',
+            # SCSS_COMPONENTS
             'website_airproof/static/src/scss/components/mouse_follower.scss',
+            # SCSS_CUSTOMSNIPPETS
+            'website_airproof/static/src/snippets/s_airproof_carousel/000.scss',
 
         ],
 
