@@ -38,8 +38,6 @@
             "website_airproof/static/src/scss/base/fonts.scss",
             # LAYOUT
             "website_airproof/static/src/scss/layout/header.scss",
-            # PAGES
-            "website_airproof/static/src/scss/pages/shop.scss",
             # SNIPPETS
             'website_airproof/static/src/scss/snippets/caroussel.scss',
             'website_airproof/static/src/scss/snippets/newsletter.scss',
