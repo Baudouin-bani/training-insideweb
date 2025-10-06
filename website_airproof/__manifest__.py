@@ -18,7 +18,9 @@
         # Views
         "views/website_template.xml",
         "views/website_sale_template.xml",
+        # Snippets
         "views/snippets/options.xml",
+        "views/snippets/s_airproof_carousel.xml",
     ],
     "assets": {
         "web._assets_primary_variables": [
