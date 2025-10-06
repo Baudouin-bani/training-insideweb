@@ -41,7 +41,7 @@
 
     <!-- Add custom template for dynamic product block -->
     <template id="dynamic_filter_template_product_product_airproof" name="Airproof product template">
-        <t t-foreach="records" t-as="data" data-number-of-elements="4" data-number-of-elements-sm="1" data-number-of-elements-fetch="8">
+        <t t-foreach="records" t-as="data" >
             <t t-set="record" t-value="data['_record']" />
             <!-- Content -->
             <div class="o_carousel_product_card card h-100 w-100" t-att-data-add2cart-rerender="data.get('_add2cart_rerender')">
