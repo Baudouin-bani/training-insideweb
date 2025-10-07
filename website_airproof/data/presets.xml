@@ -38,6 +38,11 @@
         <field name="active" eval="False" />
     </record>
 
+    <!-- Disable search bar -->
+    <record id="website_sale.search" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+
     <!-- SHOP PAGE -->
     <!-- Whishlist Presets -->
     <!-- Disable Wishlist on shop // View template in: odoo/addons/website_sale_whishlist/views/website_sale_whishlist_template.xml -->

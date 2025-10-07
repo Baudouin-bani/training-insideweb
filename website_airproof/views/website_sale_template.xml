@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-<!-- CART ICON -->
-<!-- Replace cart icon in header -->
+    <!-- CART ICON -->
+    <!-- Replace cart icon in header -->
     <template id="header_cart_link" inherit_id="website_sale.header_cart_link" name="Airproof - Cart icon">
         <xpath expr="//i" position="replace">
             <img src="/web/image/website_airproof.img_shopping" alt="shopping icon" />
         </xpath>
     </template>
 
-<!-- SHOP PAGE -->
+    <!-- SHOP PAGE -->
     <template id="products" inherit_id="website_sale.products" name="Airproof - Products">
         <xpath expr="//div[hasclass('oe_website_sale')]" position="attributes">
             <attribute name="class" add="pt-5" remove="pt-2" separator=" " />
@@ -40,9 +40,9 @@
     </template>
 
     <!-- Disable Search in shop & product page -->
-    <template id="search" inherit_id="website_sale.search" name="Airproof - Search">
+    <!-- <template id="search" inherit_id="website_sale.search" name="Airproof - Search">
         <xpath expr="//t[@t-call='website.website_search_box_input']" position="replace" />
-    </template>
+    </template> -->
 
     <!-- Add link on product card -->
     <template id="products_item" inherit_id="website_sale.products_item" name="Airproof - Products item">
