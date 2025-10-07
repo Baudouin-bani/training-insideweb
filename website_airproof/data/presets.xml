@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo noupdate="1">
-<!-- Portal Presets -->
+<odoo>
+    <!-- Portal Presets -->
     <!-- Disable language selector in footer -->
     <record id="portal.footer_language_selector" model="ir.ui.view">
         <field name="active" eval="False" />
     </record>
 
-<!-- Website Presets -->
+    <!-- Website Presets -->
     <!-- HEADER -->
     <!-- Disable Call-to-action in header // View template in: odoo/addons/website/views/website_templates.xml -->
     <record id="website.header_call_to_action" model="ir.ui.view">
@@ -39,12 +39,12 @@
     </record>
 
     <!-- SHOP PAGE -->
-<!-- Whishlist Presets -->
+    <!-- Whishlist Presets -->
     <!-- Disable Wishlist on shop // View template in: odoo/addons/website_sale_whishlist/views/website_sale_whishlist_template.xml -->
     <record id="website_sale_wishlist.add_to_wishlist" model="ir.ui.view">
         <field name="active" eval="False" />
     </record>
-<!-- Ecommerce Presets -->
+    <!-- Ecommerce Presets -->
     <!-- Enable product categories in the left // View template in: odoo/addons/website_sale/views/templates.xml -->
     <record id="website_sale.products_categories" model="ir.ui.view">
         <field name="active" eval="True" />
