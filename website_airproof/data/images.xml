@@ -57,6 +57,12 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True" />
     </record>
+    <record id="img_arrow" model="ir.attachment">
+        <field name="name">Arrow icon</field>
+        <field name="datas" type="base64" file="website_airproof/static/src/img/content/icons/arrow.svg" />
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True" />
+    </record>
 
     <!-- MEGA-MENU -->
     <record id="img_mini" model="ir.attachment">
